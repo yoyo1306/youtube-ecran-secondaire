@@ -421,17 +421,6 @@ function setVideoCover(enabled) {
       opacity: 0.9999 !important;
       transform: translateZ(0) !important;
     }
-    html.ecran-secondaire .ytp-chrome-bottom,
-    html.ecran-secondaire .ytp-chrome-top,
-    html.ecran-secondaire .ytp-chrome-controls,
-    html.ecran-secondaire .ytp-progress-bar-container,
-    html.ecran-secondaire .ytp-time-display,
-    html.ecran-secondaire .html5-video-player.ytp-autohide .ytp-chrome-bottom,
-    html.ecran-secondaire .html5-video-player.ytp-autohide .ytp-chrome-top {
-      opacity: 1 !important;
-      visibility: visible !important;
-      pointer-events: auto !important;
-    }
   `;
 
   const video = document.querySelector("video.html5-main-video, #movie_player video, video");
